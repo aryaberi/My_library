@@ -1,0 +1,15 @@
+GET  http://localhost:5000/users
+
+###
+GET  http://localhost:5000/users/beri@gmail.com
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "Arya",
+    "email" : "arya@gmail.com",
+    "password" : "arya",
+    "status" : "user"
+}
